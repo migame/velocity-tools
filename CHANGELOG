@@ -1,0 +1,13 @@
+velocity-hashtool
+=================
+1.0.1
+-----
+* Fixed version numbering scheme
+* Added CHANGELOG / LICENSE / README
+* Added unit tests
+* Added missing Maven plugins
+* Changed velocity-tools dependency version to 1.4, realized that XWiki probably didn't support the 2.0-beta1 API
+
+1.0.0
+-----
+* First release
