@@ -1,6 +1,6 @@
 velocity-hashtool
 =================
-A velocity tool which wraps several hex methods of [DigestUtils][org.apache.commons.codec.digest.DigestUtils].
+A velocity tool which wraps several hex methods of [org.apache.commons.codec.digest.DigestUtils][DigestUtils].
 
 Dependencies
 ------------
