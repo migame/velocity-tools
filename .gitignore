@@ -1,7 +1,2 @@
-# IDE files
-.idea
-*.iml
-
-# Generated files
 target
 *.class
