@@ -1,13 +1,17 @@
-velocity-hashtool
-=================
-1.0.1
------
+velocity-tools
+==============
+2013-01-19 - 1.0.2
+------------------
+* Converted velocity-hashtool to velocity-tools, velocity-hashtool is now a submodule of this project
+
+2013-01-16 - 1.0.1
+------------------
 * Fixed version numbering scheme
 * Added CHANGELOG / LICENSE / README
 * Added unit tests
 * Added missing Maven plugins
 * Changed velocity-tools dependency version to 1.4, realized that XWiki probably didn't support the 2.0-beta1 API
 
-1.0.0
------
+2013-01-15 - 1.0.0
+------------------
 * First release

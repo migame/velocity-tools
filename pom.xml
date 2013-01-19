@@ -5,9 +5,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                         http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.migame.ext</groupId>
-    <artifactId>velocity-hashtool</artifactId>
-    <version>1.0.1</version>
+    <groupId>org.migame.velocity</groupId>
+    <artifactId>velocity-tools</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.2-SNAPSHOT</version>
+    <modules>
+        <module>velocity-hashtool</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
         <java-version>1.5</java-version>
@@ -19,12 +23,6 @@
             <version>1.4</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <version>1.7</version>
-            <scope>provided</scope>
-        </dependency>
         <!-- Testing -->
         <dependency>
             <groupId>org.testng</groupId>
@@ -33,6 +31,16 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>1.7</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>

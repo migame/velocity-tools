@@ -6,7 +6,7 @@ import org.apache.commons.codec.digest.DigestUtils;
  * @author Alex
  * @version 1.0.0
  * 
- * Velocity tool which wraps several methods of {@link DigestUtils}. 
+ * Velocity tool which wraps several methods of {@link DigestUtils}.
  */
 public class HashTool
 {
