@@ -1,5 +1,9 @@
 velocity-tools
 ==============
+2013-01-25 - 1.0.3
+------------------
+* Added velocity-stringtool submodule
+
 2013-01-19 - 1.0.2
 ------------------
 * Converted velocity-hashtool to velocity-tools, velocity-hashtool is now a submodule of this project
